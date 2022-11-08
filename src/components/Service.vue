@@ -11,14 +11,7 @@ export default {
     name: "Service",
     data() {
         return {
-            Services: [
-                { 'name': 'Attack Lab 画图', 'description': 'CS:APP第三次实验attack lab内存单元辅助画图' },
-                { 'name': 'Attack Lab 画图', 'description': 'CS:APP第三次实验attack lab内存单元辅助画图' },
-                { 'name': 'Attack Lab 画图', 'description': 'CS:APP第三次实验attack lab内存单元辅助画图' },
-                { 'name': 'Attack Lab 画图', 'description': 'CS:APP第三次实验attack lab内存单元辅助画图' },
-                { 'name': 'Attack Lab 画图', 'description': 'CS:APP第三次实验attack lab内存单元辅助画图' },
-                { 'name': 'Attack Lab 画图', 'description': 'CS:APP第三次实验attack lab内存单元辅助画图' },
-            ]
+            Services: []
         }
     },
 }

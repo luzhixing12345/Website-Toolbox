@@ -1,16 +1,20 @@
 <template>
   <div class="main">
-    <Service></Service>
+    <navigation></navigation>
+    <introduction></introduction>
   </div>
 
 </template>
 
 <script>
-import Service from './components/Service'
+// import Service from './components/Service'
+import navigation from './components/navigation'
+import introduction from './components/introduction'
 export default {
   name: 'App',
   components: {
-    Service
+    navigation,
+    introduction
   }
 }
 
@@ -22,11 +26,13 @@ body,html,.main{
   padding: 0;
   width: 100%;
   height: 100%;
+  background-color: #f8f9fa;
 }
-body {
+
+/* body {
   background-image: url("./assets/backgroundImage.jpg");
   background-position: center;
   background-size: cover; 
   background-attachment: scroll;
-}
+} */
 </style>
