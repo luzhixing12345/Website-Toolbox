@@ -24,8 +24,9 @@ export default {
             avatar: require('../assets/avatar.jpg'),
             iconButtons: [
                 { name: 'Github', class: 'ri-github-fill', link:'https://github.com/luzhixing12345'},
+                { name: 'Blog', class:'ri-book-line',link:'https://luzhixing12345.github.io/'},
                 { name: 'Bilibili', class: 'ri-bilibili-fill',link:'https://space.bilibili.com/261543088'},
-                { name: 'Zhihu', class: 'ri-zhihu-line',link:'https://www.zhihu.com/people/lu-zhi-xing-66-64' }
+                { name: 'Zhihu', class: 'ri-zhihu-line',link:'https://www.zhihu.com/people/lu-zhi-xing-66-64' },
             ]
         }
     },
@@ -80,6 +81,9 @@ export default {
 
 .introduction .buttons {
     display: flex;
+    width: 100%;
+    height: 30%;
+    flex-wrap: wrap;
 }
 
 .introduction .buttons .button {
@@ -88,13 +92,11 @@ export default {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     font-size: 20px;
     font-weight: 500;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-right: 15px;
     border-radius: 10px;
     border: 0;
     display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
     align-items: center;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

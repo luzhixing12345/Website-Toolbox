@@ -2,6 +2,7 @@
   <div class="main">
     <navigation></navigation>
     <introduction></introduction>
+    <projects></projects>
   </div>
 
 </template>
@@ -10,11 +11,13 @@
 // import Service from './components/Service'
 import navigation from './components/navigation'
 import introduction from './components/introduction'
+import projects from './components/projects'
 export default {
   name: 'App',
   components: {
     navigation,
-    introduction
+    introduction,
+    projects
   }
 }
 
