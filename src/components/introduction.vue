@@ -64,7 +64,7 @@ export default {
     width: 40%;
     /* background-color: antiquewhite; */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-size: 32px;
+    font-size: 2vw;
     font-weight: 500;
     word-wrap: break-word;
     display: flex;
@@ -74,7 +74,7 @@ export default {
 }
 
 .introduction .intro #title {
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: 650;
     margin-bottom: 20px;
 }
@@ -87,10 +87,10 @@ export default {
 }
 
 .introduction .buttons .button {
-    min-width: 100px;
+    min-width: 13%;
     height: 50px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: 500;
     margin-top: 20px;
     margin-right: 15px;
@@ -103,6 +103,7 @@ export default {
     cursor: pointer;
     transition: all 0.8s;
 }
+
 
 .introduction .buttons .button:hover {
     transition: all 0.8s;

@@ -21,7 +21,12 @@ export default {
             projects : [
                 {title:'Stack Memory Draw',description:'',link:''},
                 {title:'Stack Memory Draw',description:'',link:''},
-                {title:'Stack Memory Draw',description:'',link:''}
+                {title:'Stack Memory Draw',description:'',link:''},
+                {title:'Stack Memory Draw',description:'',link:''},
+                // {title:'Stack Memory Draw',description:'',link:''},
+                // {title:'Stack Memory Draw',description:'',link:''},
+                // {title:'Stack Memory Draw',description:'',link:''},
+                // {title:'Stack Memory Draw',description:'',link:''},
             ]
         }
     },
@@ -35,13 +40,16 @@ export default {
 <style lang="css" scoped>
 
 .Project {
+    min-height:50%;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
     /* margin: 0 auto; */
+    overflow-y: auto;
     /* align-items: center; */
     /* margin-left: 22%; */
 }
@@ -53,7 +61,7 @@ export default {
 
 .title #title {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-size: 35px;
+    font-size: 2vw;
     font-weight:600;
 }
 
